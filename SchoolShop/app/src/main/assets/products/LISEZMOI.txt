@@ -1,0 +1,11 @@
+Photos des produits
+-------------------
+Dépose ici une image par produit, nommée avec l'id du produit :
+  1.jpg  = Cahier 100 pages
+  2.jpg  = Cahier 200 pages
+  ... jusqu'à 19.jpg
+L'app les affiche automatiquement (format jpg, ~400x400 px suffit).
+Sans fichier, l'emoji du produit s'affiche à la place.
+
+Pour utiliser une URL à la place, modifie imageUrl dans SampleData, par exemple :
+  Product(1, "cahiers", "Cahier 100 pages", ..., imageUrl = "https://.../cahier.jpg")
